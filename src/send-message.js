@@ -10,6 +10,22 @@ const client = new Client({
   ],
 });
 
+
+const roles = [
+    {
+      id: '1058030952707784714',
+      label: 'Red',
+    },
+    {
+      id: '1058031008655609856',
+      label: 'Green',
+    },
+    {
+      id: '1058031040461013093',
+      label: 'Blue',
+    },
+  ];
+
 client.on("ready", (c) => {
   console.log(`✅ ${c.user.tag} is online.`);
 });
